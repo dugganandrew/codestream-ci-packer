@@ -1,7 +1,7 @@
 FROM sammcgeown/codestream-ci:latest
 LABEL maintainer="smcgeown@vmware.com"
 
-ENV PACKER_VER=1.6.2
+ENV PACKER_VER=1.8
 
 # Install jq
 RUN     yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm && \
